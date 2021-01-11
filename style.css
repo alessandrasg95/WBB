@@ -3,7 +3,8 @@
 .main-layout{
     width: 100vw;
     max-width: 2000px;
-    margin: 0 auto
+    margin: 0 auto;
+    
 }
 *{
     padding: 0;
@@ -11,6 +12,10 @@
 }
 div {
     display: block;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 10s;
 }
 
 nav[data-v-56643fe0]{
@@ -35,15 +40,17 @@ li {
     text-align: -webkit-match-parent;
 }
 a{
-    text-decoration: none;
-    color: rgb(10, 99, 201);
-    transition: all .3s ease-in-out;
     float: right;
     margin-top: 2em;
-    margin-right: 26px
-}a {
+    margin-right: 26px;
     background-color: transparent;
+    text-decoration: none;
+    color: rgba(27, 24, 24, 0.678);
 }
+a:hover {
+    border-color: transparent;
+}
+
 
 html{
     font-size: 10;

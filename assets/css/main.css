@@ -29,6 +29,40 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+/*botones*/
+	nav[data-v-56643fe0]{
+		text-align: left;
+		position: sticky;
+		top: 0;
+		width: 100%;
+		padding: 2rem 2rem 0;
+		background-color: var(--background-nav);
+		border-bottom: 1px solid transparent;
+	}
+	ul[data-v-56643fe0] {
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		padding-inline-start: 40px;
+		padding-right: 15px;
+		text-decoration: none;
+	}
+	li {
+		text-align: -webkit-match-parent;
+	}
+	a{
+		transition: all .3s ease-in-out;
+		float: right;
+		margin-top: 2em;
+		margin-right: 26px
+	}
+	a:hover {
+		border-color: transparent;
+	}
+	a {
+		background-color: transparent;
+	}
 body {
 	line-height: 1;
 }
