@@ -24,7 +24,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 h1{
 	font-family: 'permanent marker', cursive;
@@ -117,7 +118,9 @@ li {
 	text-align: -webkit-match-parent;
 	color: rgba(128, 128, 128, 0.74)
 }
-
+#cp{
+	color: rgba(0, 0, 0, 0.897);
+}
 a{
 	transition: all .3s ease-in-out;
 	float: right;
@@ -152,7 +155,7 @@ a {
 
 	html {
 		box-sizing:border-box;
-		overflow:scroll;
+		overflow: scroll;
 	}
 
 	*, *:before, *:after {
@@ -289,7 +292,7 @@ a {
 /* BG */
 
 	#bg {
-		-moz-animation: bg 60s linear infinite;
+		-moz-animation: none;
 		-webkit-animation: bg 60s linear infinite;
 		-ms-animation: bg 60s linear infinite;
 		animation: none;
@@ -304,7 +307,7 @@ a {
 	/* Set your background with this */
 
 		background: black url("images/bg.jpg") bottom left;
-		background-repeat: none;
+		background-repeat: repeat-y;
 		height: 100%;
 		left: 0;
 		opacity: 1;
@@ -827,7 +830,6 @@ a {
 		position: relative;
 		background-color: rgba(255, 255, 255, 0.712);
 		padding: 15px;
-		color: blue;
 	}
 
 /* Wide */
@@ -1002,7 +1004,7 @@ a {
 		/* Basic */
 
 			body {
-				min-width: 320px;
+				min-width:fit-content;
 			}
 
 			body, input, select, textarea {
